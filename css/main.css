@@ -37,7 +37,7 @@ html, body {
 }
 #web:link { color:white; }
 #web:visited { color:white; }
-#web:hover { color: white; }
+#web:hover { color: white; padding-left: 10px;}
 #web:active { color: white;}
 
 .webpage{

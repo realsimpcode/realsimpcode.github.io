@@ -48,9 +48,6 @@ html, body {
 .webpage:hover { color: black; text-decoration: none; }
 .webpage:active { color: black; text-decoration: none;}
 
-.imgface {
-
-}
 .footer {
   font-size: 15px
   color: white;

@@ -32,13 +32,13 @@ html, body {
 .main {
   height: 100%;
 }
-#web {
+.moving {
    text-decoration: none;
 }
-#web:link { color:white; }
-#web:visited { color:white; }
-#web:hover { color: white; padding-left: 10px;}
-#web:active { color: white;}
+.moving:link { color:white; }
+.moving:visited { color:white; }
+.moving:hover { color: white; padding-left: 10px;}
+.moving:active { color: white;}
 
 .webpage{
   text-decoration: none;

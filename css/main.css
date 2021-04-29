@@ -4,6 +4,11 @@
   color: white;
   background-color: yellow;
 }
+
+a{ text-decoration: none; }
+a:visited{ color:blue; }
+a:hover{ color:yellow; }
+
 html, body {
   height: 100%;
 }

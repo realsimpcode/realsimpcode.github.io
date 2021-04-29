@@ -1,3 +1,5 @@
+* { font-famliy: notosanskr; }
+
 ::selection {
   color: white;
   background-color: yellow;

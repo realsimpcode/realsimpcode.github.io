@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>simpcode</title>
     <meta property="og:image" content="/imgs/homersimpson.jpg">
     <link rel="stylesheet" href="./css/main.css">
@@ -13,8 +14,9 @@
   <span class="teamname"   onclick="alert('사이트가 아직 리뉴얼중입니다! 곧 새로운 모습으로 찾아뵙겠습니다')"><a href="https://github.com/simpcodes/" class ="moving" target="_blank">simpcode</a></span>
     </header>
     <!--header 다음에 본문 내용을 삽입-->
-  <p>사이트 리뉴얼중입니다.... 김현서가 이렇게 만들었어요 <a href="mailto:simpcode.kr@gmail.com?subject=feedback">이메일</a></p>
-    <!--footer부분-->
+    <p>사이트 리뉴얼중입니다.... 나중에 다시 찾아오세요 <a href="mailto:simpcode.kr@gmail.com?subject=feedback">이메일</a></p>
+    <script charset="utf-8" src="./resources/src/member.jsx" type="text/babel"></script>
+    <!--footer부분 하단-->
     <footer>
         <div class="maindiv">
         <div class="us">
@@ -45,7 +47,28 @@
           </ul>
         </div>
       </div>
-      <span class="made">Made by <a href="https://github.com/simpcodes/" class = "webpage">simpcode</a><span>
+      <span class="made">Made by <a href="https://github.com/simpcodes/" class = "webpage">simpcode</a><span><br>
+      <span id="clock" style="color:gray;">00:00</span>
+        <script>
+        var clockTarget = document.getElementById("clock");
+        function clock() {
+            var date = new Date();
+            var month = date.getMonth();
+            var clockDate = date.getDate();
+            var day = date.getDay();
+            var week = ['일', '월', '화', '수', '목', '금', '토'];
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+            clockTarget .innerText = `${month+1}월 ${clockDate}일 ${week[day]}요일` +
+            `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes }`  : minutes }:${seconds < 10 ? `0${seconds }`  : seconds }`;
+        }
+        function init() {
+        clock();
+        setInterval(clock, 1000);
+        }
+        init();
+        </script>
   </footer>
   </body>
 </html>

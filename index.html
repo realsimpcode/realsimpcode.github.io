@@ -28,19 +28,40 @@
         </div>
         <div class="con">
           <h3>Contact Developers</h3>
-            <p class="img01"><a href="#" ><img src="C:\Users\user\Desktop\dnaiel.jpg" alt="Contact daniel" width="42px" height="42px" class="img1">DanielSimpson2200705</a></p>
-            <p class="img02"><a href="#" ><img src="C:\Users\user\Desktop\simpson.jpg" alt="Contact simpson" width="42px" height="42px" class="img2">realsimpcode</a></p>
+            <p class="img01"><a href="#" ><img src="./imgs/dnaiel.jpg" alt="Contact daniel" width="42px" height="42px" class="img1">DanielSimpson2200705</a></p>
+            <p class="img02"><a href="#" ><img src="./imgs/simpson.jpg" alt="Contact simpson" width="42px" height="42px" class="img2">realsimpcode</a></p>
         </div>
         <div class="Team's SNS">
           <h3>Social Media</h3>
         <p>
-          <span class="img03"><a href="https://www.facebook.com/Simpcode-103283785248910" target="_blank" class="SNS1"><img src="C:\Users\user\Desktop\facebook (1).png" alt="facebook" title="facebook(Icons made by www.freepik.com Freepik from www.flaticon.com)" width="42px" height="42px" class="img3"></a></span>
-          <span class="img04"><a href="https://github.com/simpcodes/" target="_blank" class="SNS2"><img src="C:\Users\user\Desktop\png-transparent-tenzo-downtown-austin-recipe-computer-icons-twitter-black.png" alt="twiiter" title="twitte(Icons made by https://www.freepik.com Freepik from www.flaticon.com)" width="42px" height="42px" class="img4"></a></span>
-          <span class="img05"><a href="https://github.com/simpcodes/" target="_blank" class="SNS3"><img src="C:\Users\user\Desktop\free-icon-github-sign-25657 (1).png" height="42px" width="42px" title="github(icon maker Dave Gandy from www.flaticon.c)" class="img5"></a></span>
+          <span class="img03"><a href="https://www.facebook.com/Simpcode-103283785248910" target="_blank" class="SNS1"><img src="./imgs/facebook-icon.png" alt="facebook" title="facebook(Icons made by www.freepik.com Freepik from www.flaticon.com)" width="42px" height="42px" class="img3"></a></span>
+          <span class="img04"><a href="https://github.com/simpcodes/" target="_blank" class="SNS2"><img src="./imgs/twitter.png" alt="twiiter" title="twitte(Icons made by https://www.freepik.com Freepik from www.flaticon.com)" width="42px" height="42px" class="img4"></a></span>
+          <span class="img05"><a href="https://github.com/simpcodes/" target="_blank" class="SNS3"><img src="./imgs/github-icon.png" height="42px" width="42px" title="github(icon maker Dave Gandy from www.flaticon.c)" class="img5"></a></span>
         </p>
         </div>
       </div>
-      <span class="made">Made by <a href="https://github.com/simpcodes/" class = "webpage">simpcode</a><span>
+      <span class="made">Made by <a href="https://github.com/simpcodes/" class = "webpage">simpcode</a><span><br>
+        <span id="clock" style="color:gray;">00:00</span>
+        <script>
+        var clockTarget = document.getElementById("clock");
+        function clock() {
+            var date = new Date();
+            var month = date.getMonth();
+            var clockDate = date.getDate();
+            var day = date.getDay();
+            var week = ['일', '월', '화', '수', '목', '금', '토'];
+            var hours = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+            clockTarget .innerText = `${month+1}월 ${clockDate}일 ${week[day]}요일` +
+            `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes }`  : minutes }:${seconds < 10 ? `0${seconds }`  : seconds }`;
+        }
+        function init() {
+        clock();
+        setInterval(clock, 1000);
+        }
+        init();
+        </script>
   </footer>
   </body>
 </html>

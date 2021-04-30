@@ -2,7 +2,6 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>simpcode</title>
     <meta property="og:image" content="/imgs/homersimpson.jpg">
     <link rel="stylesheet" href="./css/main.css">
@@ -11,64 +10,37 @@
   </head>
   <body>
 <header>
-  <span class="teamname"   onclick="alert('사이트가 아직 리뉴얼중입니다! 곧 새로운 모습으로 찾아뵙겠습니다')"><a href="https://github.com/simpcodes/" class ="moving" target="_blank">simpcode</a></span>
+  <span class="teamname"   onclick="alert('사이트가 아직 리뉴얼중입니다! 곧 새로운 모습으로 찾아뵙겠습니다')"><a href="https://realsimpcode.github.io/" class ="moving" target="_blank">simpcode</a></span>
     </header>
     <!--header 다음에 본문 내용을 삽입-->
-    <p>사이트 리뉴얼중입니다.... 나중에 다시 찾아오세요 <a href="mailto:simpcode.kr@gmail.com?subject=feedback">이메일</a></p>
-    <script charset="utf-8" src="./resources/src/member.jsx" type="text/babel"></script>
-    <!--footer부분 하단-->
+  <p>사이트 리뉴얼중입니다.... 김현서가 이렇게 만들었어요 <a href="mailto:simpcode.kr@gmail.com?subject=feedback">이메일</a></p>
+    <!--footer부분-->
     <footer>
         <div class="maindiv">
         <div class="us">
-          <h3 class="ush">About Us</h3>
-          <p class="usinfo">여기에 우리를 설명하는 글 넣을 생각
+          <h3>About Us</h3>
+          <p class="usinfo">여기에 우리를 설명하는 글 넣을 생각</p>
         </div>
         <div class="maindev">
-          <h3 class="devh">Main Developers</h3>
-          <ul>
-            <li><a href="" target="_blank" class="dev1">DanielSimpson2200705</a></li>
-            <li><a href="" target="_blank" class="dev2"></a>realsimpcode</a></li>
-          </ul>
+          <h3>Main Developers</h3>
+          <p>DanielSimpson2200705</p>
+          <p>realsimpcode</p>
         </div>
         <div class="con">
-          <h3 class="conh">Contact Info</h3>
-          <ul>
-            <li><a href="" target="_blank" class="cona1"><img src="바탕 화면/dnaiel.jpg" alt="DanielSimpson2200705"></a></li>
-            <li><a href="" target="_blank" class="cona2"><img src="바탕 화면/simpson.jpg" alt="realsimpcode"></a></li>
-            <li><a href="" target="_blank" class="cona3"><img src="바탕 화면/git.png" alt="github"></a></li>
-          </ul>
+          <h3>Contact Developers</h3>
+            <p class="img01"><a href="#" ><img src="C:\Users\user\Desktop\dnaiel.jpg" alt="Contact daniel" width="42px" height="42px" class="img1">DanielSimpson2200705</a></p>
+            <p class="img02"><a href="#" ><img src="C:\Users\user\Desktop\simpson.jpg" alt="Contact simpson" width="42px" height="42px" class="img2">realsimpcode</a></p>
         </div>
-        <div class="SNS">
-          <h3 class="SNSh">Our SNS</h3>
-          <ul>
-            <li><a href="https://www.facebook.com/Simpcode-103283785248910" target="_blank" class="SNS1"><img src="./imgs/facebook-icon.svg" height="24px" width="24px" alt="">페이스북</a></li>
-            <li><a href="https://github.com/simpcodes/" target="_blank" class="SNS2"><img src="./imgs/github-icon.png" height="24px" width="24px" alt="">깃허브</a></li>
-            <li><a href="" target="_blank" class="SNS3"><img src="" height="24px" width="24px" alt=""></a></li>
-          </ul>
+        <div class="Team's SNS">
+          <h3>Social Media</h3>
+        <p>
+          <span class="img03"><a href="https://www.facebook.com/Simpcode-103283785248910" target="_blank" class="SNS1"><img src="C:\Users\user\Desktop\facebook (1).png" alt="facebook" title="facebook(Icons made by www.freepik.com Freepik from www.flaticon.com)" width="42px" height="42px" class="img3"></a></span>
+          <span class="img04"><a href="https://github.com/simpcodes/" target="_blank" class="SNS2"><img src="C:\Users\user\Desktop\png-transparent-tenzo-downtown-austin-recipe-computer-icons-twitter-black.png" alt="twiiter" title="twitte(Icons made by https://www.freepik.com Freepik from www.flaticon.com)" width="42px" height="42px" class="img4"></a></span>
+          <span class="img05"><a href="https://github.com/simpcodes/" target="_blank" class="SNS3"><img src="C:\Users\user\Desktop\free-icon-github-sign-25657 (1).png" height="42px" width="42px" title="github(icon maker Dave Gandy from www.flaticon.c)" class="img5"></a></span>
+        </p>
         </div>
       </div>
-      <span class="made">Made by <a href="https://github.com/simpcodes/" class = "webpage">simpcode</a><span><br>
-      <span id="clock" style="color:gray;">00:00</span>
-        <script>
-        var clockTarget = document.getElementById("clock");
-        function clock() {
-            var date = new Date();
-            var month = date.getMonth();
-            var clockDate = date.getDate();
-            var day = date.getDay();
-            var week = ['일', '월', '화', '수', '목', '금', '토'];
-            var hours = date.getHours();
-            var minutes = date.getMinutes();
-            var seconds = date.getSeconds();
-            clockTarget .innerText = `${month+1}월 ${clockDate}일 ${week[day]}요일` +
-            `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes }`  : minutes }:${seconds < 10 ? `0${seconds }`  : seconds }`;
-        }
-        function init() {
-        clock();
-        setInterval(clock, 1000);
-        }
-        init();
-        </script>
+      <span class="made">Made by <a href="https://github.com/simpcodes/" class = "webpage">simpcode</a><span>
   </footer>
   </body>
 </html>

@@ -75,25 +75,49 @@ margin: 9px auto;
 display: flex;
 }
 .us {
-  flex:1;
-  width:28%;
+  flex: 1;
+  width: 20%;
 }
 .maindev {
   flex: 1;
-  margin: 0px 4%;
-  width: 28%;
+  width: 20%;
 }
 .con {
+
   flex: 1;
-  margin: 0px 4%;
-  width: 28%;
+  width: 20%;
 }
 .SNS {
   flex: 1;
-  width: 28%;
+  width: 20%;
 }
 .made {
   position: relative;
-  bottom: -10%;
-  left: 45%;
+  bottom: -5%;
+  left: 45.4%;
+}
+.img1 {
+  background: #A0A0FF;
+  background-size: cover;
+  border-radius:30% 30% 30% 30%;
+}
+.img2 {
+  background: #A0A0FF;
+  background-size: cover;
+  border-radius:30% 30% 30% 30%;
+}
+.img3 {
+  background: #A0A0FF;
+  background-size: cover;
+  border-radius:30% 30% 30% 30%;
+}
+.img4 {
+  background: #A0A0FF;
+  background-size: cover;
+  border-radius:30% 30% 30% 30%;
+}
+.img5 {
+  background: #A0A0FF;
+  background-size: cover;
+  border-radius:30% 30% 30% 30%;
 }

@@ -121,3 +121,8 @@ display: flex;
   background-size: cover;
   border-radius:30% 30% 30% 30%;
 }
+#clock {
+  position: relative;
+  text-align: center;
+  left: -16px;
+}

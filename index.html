@@ -10,16 +10,52 @@
   </head>
   <body>
 <header>
-  <span class="teamname"   onclick="alert('사이트가 아직 리뉴얼중입니다! 곧 새로운 모습으로 찾아뵙겠습니다')"><a href="https://realsimpcode.github.io/" class ="moving" target="_blank">simpcode</a></span>
+  <span class="teamname"   onclick="alert('사이트가 아직 리뉴얼중입니다! 곧 새로운 모습으로 찾아뵙겠습니다')">
+  <a href="#blocked" class ="moving" target="_top">simpcode</a>
+  </span>
+<!-- 메뉴, 많을수록 간격 좁혀짐 -->
+  | <div class="dropdown">
+  <button class="dropbtn">Team SNS</button>
+  <div class="dropdown-content">
+  <a href="https://www.facebook.com/Simpcode-103283785248910" target="_blank">Facebook</a>
+  <a href="https://www.github.com/simpcodes/" target="_blank">Github</a>
+  <a href="https://www.twitter.com/simpcodes/" target="_blank">Twitter</a>
+  </div>
+</div> |
+<!-- 개발자 메뉴 -->
+  <div class="dropdown">
+  <button class="dropbtn">Simpcode Developers</button>
+  <div class="dropdown-content">
+  <a onclick="if(!alert('아직 준비되지 않은 페이지입니다. 서비스에 불편을 드려 진심으로 죄송합니다.')){return false;location.href='./Devs'}" target="_blank">개발자 목록</a>
+  <a onclick="if(!alert('아직 준비되지 않은 페이지입니다. 서비스에 불편을 드려 진심으로 죄송합니다.')){return false;location.href='./Devintro'}" target="_blank">개발자 소개</a>
+  </div>
+</div> |
+<!-- 프로젝트 메뉴 -->
+<div class="dropdown">
+<button class="dropbtn">프로젝트 페이지</button>
+<div class="dropdown-content">
+<a onclick="if(!alert('아직 준비되지 않은 페이지입니다. 서비스에 불편을 드려 진심으로 죄송합니다.')){return false;location.href='./projects'}" target="_blank">진행중인 프로젝트</a>
+<a onclick="if(!alert('아직 준비되지 않은 페이지입니다. 서비스에 불편을 드려 진심으로 죄송합니다.')){return false;location.href='./willdoproject'}" target="_blank">진행 예정인 프로젝트</a>
+</div>
+</div> |
+
+<!-- 팀 소개 메뉴 -->
+<div class="dropdown">
+<button class="dropbtn">Introduce Team</button>
+<div class="dropdown-content">
+<a onclick="if(!alert('아직 준비되지 않은 페이지입니다. 서비스에 불편을 드려 진심으로 죄송합니다.')){return false;location.href='./aboutteam'}" target="_blank">팀 소개</a>
+<a onclick="if(!alert('아직 준비되지 않은 페이지입니다. 서비스에 불편을 드려 진심으로 죄송합니다.')){return false;location.href='./ourgoal'}" target="_blank">우리의 목표</a>
+</div>
+</div> |
     </header>
     <!--header 다음에 본문 내용을 삽입-->
-  <p>사이트 리뉴얼중입니다.... 김현서가 이렇게 만들었어요 <a href="mailto:simpcode.kr@gmail.com?subject=feedback">이메일</a></p>
+  <p>사이트 리뉴얼중입니다.... 빠른 시일 내에 완료하겠습니다! <a href="mailto:simpcode.kr@gmail.com?subject=feedback">이메일</a></p>
     <!--footer부분-->
     <footer>
         <div class="maindiv">
         <div class="us">
           <h3>About Us</h3>
-          <p class="usinfo">여기에 우리를 설명하는 글 넣을 생각</p>
+          <p class="usinfo">갱신중 ...</p>
         </div>
         <div class="maindev">
           <h3>Main Developers</h3>
@@ -28,22 +64,23 @@
         </div>
         <div class="con">
           <h3>Contact Developers</h3>
-            <p class="img01"><a href="#" class="dev1"><img src="./imgs/dnaiel.jpg" alt="Contact daniel" width="42px" height="42px" class="img1"><span class="devsns1">DanielSimpson2200705</span></a></p>
-            <p class="img02"><a href="#" class="dev2"><img src="./imgs/simpson.jpg" alt="Contact simpson" width="42px" height="42px" class="img2"><span class="devsns2">realsimpcode</span></a></p>
+            <p class="img01"><a href="#" ><img src="./imgs/dnaiel.jpg" alt="Contact daniel" width="42px" height="42px" class="img1">DanielSimpson2200705</a></p>
+            <p class="img02"><a href="#" ><img src="./imgs/simpson.jpg" alt="Contact simpson" width="42px" height="42px" class="img2">realsimpcode</a></p>
         </div>
-        <div class="Team's SNS">
+        <div>
           <h3>Social Media</h3>
         <p>
           <span class="img03"><a href="https://www.facebook.com/Simpcode-103283785248910" target="_blank" class="SNS1"><img src="./imgs/facebook-icon.png" alt="simpcode 공식 페이스북으로 이동합니다" width="42px" height="42px" class="img3"></a></span>
           <span class="img04"><a href="https://github.com/simpcodes/" target="_blank" class="SNS2"><img src="./imgs/twitter.png" alt="twiiter" title="simpcode 공식 트위터로 이동합니다" width="42px" height="42px" class="img4"></a></span>
           <span class="img05"><a href="https://github.com/simpcodes/" target="_blank" class="SNS3"><img src="./imgs/github-icon.png" height="42px" width="42px" title="simpcode 공식 깃허브로 이동합니다" class="img5"></a></span><br>
-          <span style="color:gray">this pic form by flaticon.com</span>
         </p>
+        <span class="출처" title="해당 사진의 출처입니다.">this pic from flaticon.com<span>
         </div>
       </div>
       <span class="made">Made by <a href="https://github.com/simpcodes/" class = "webpage">simpcode</a><span><br>
         <span id="clock" style="color:gray;">00:00</span>
         <script>
+        //공식 시계
         var clockTarget = document.getElementById("clock");
         function clock() {
             var date = new Date();

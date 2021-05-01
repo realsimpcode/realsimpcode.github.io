@@ -5,9 +5,9 @@
   background-color: yellow;
 }
 
-a{ text-decoration: none; }
-a:visited{ color:blue; }
-a:hover{ color:yellow; }
+a{ text-decoration: none; }
+a:visited{ color:blue; }
+a:hover{ color:yellow; }
 
 html, body {
   height: 100%;
@@ -21,53 +21,53 @@ color: white;
 background: #A0A0FF;
 justify-content: space-between;
 align-items: center;
-display: flex;
+display: flex;
 }
 .teamname {
     font-size: 3rem;
     font-weight: 700;
     text-align: left;
     font-family: 'Oswald', sans-sans-serif;
-    color: white;
+    color: white;
 }
 body {
 overflow: auto;
 margin: 0;
 display: flex;
 flex-direction: column;
-min-height: 100%;
+min-height: 100%;
 }
 .webpage{
-  text-decoration: none;
+  text-decoration: none;
 }
-.webpage:link { color: black; text-decoration: none; }
-.webpage:visited { color: black; text-decoration: none; }
-.webpage:hover { color: black; text-decoration: none; }
-.webpage:active { color: black; text-decoration: none;}
+.webpage:link { color: black; text-decoration: none; }
+.webpage:visited { color: black; text-decoration: none; }
+.webpage:hover { color: black; text-decoration: none; }
+.webpage:active { color: black; text-decoration: none;}
 .github {
    text-decoration: none;
 }
-.moving:link { color:white; }
-.moving:visited { color:white; }
-.moving:hover { color: white; padding-left: 10px;}
-.moving:active { color: white;}
+.moving:link { color:white; }
+.moving:visited { color:white; }
+.moving:hover { color: white; padding-left: 10px;}
+.moving:active { color: white;}
 
 .moving{
-  text-decoration: none;
+  text-decoration: none;
 }
-.git{ text-decoration: none;}
-.git:link { color: black; }
-.git:visited { color: black; }
-.git:hover { color: black; }
-.git:active { color: black;}
+.git{ text-decoration: none;}
+.git:link { color: black; }
+.git:visited { color: black; }
+.git:hover { color: black; }
+.git:active { color: black;}
 ul{
-   list-style:none;
+   list-style:none;
    }
 footer {
   color: black;
   background: #A0A0FF;
   padding: 1.8em;
-  margin-top: auto;
+  margin-top: auto;
 }
 .maindiv{
 width: 80%;
@@ -119,12 +119,12 @@ display: flex;
 .img5 {
   background: #A0A0FF;
   background-size: cover;
-  border-radius:30% 30% 30% 30%;
+  border-radius:30% 30% 30% 30%;
 }
 #clock {
   position: relative;
   text-align: center;
-  left: -16px;
+  left: -16px;
 }
 
 /*메뉴*/
@@ -133,11 +133,11 @@ display: flex;
     color: white;
     padding: 10px;
     font-size: 16px;
-    border: none;
+    border: none;
 }
 
 .dropdown {
-    position: relative;
+    position: relative;
 }
 
 .dropdown-content {
@@ -145,7 +145,7 @@ display: flex;
     position: absolute;
     background-color: lightgrey;
     min-width: 20px;
-    z-index: 1;
+    z-index: 1;
 }
 
 .dropdown-content a {

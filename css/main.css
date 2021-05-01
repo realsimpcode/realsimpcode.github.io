@@ -5,6 +5,9 @@
   background-color: yellow;
 }
 
+a{ text-decoration: none; }
+a:visited{color: blue;}
+a:hover{ color:yellow; }
 .출처 {
   color: gray;
   height: 1px;

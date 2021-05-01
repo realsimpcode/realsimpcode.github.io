@@ -173,6 +173,10 @@ display: flex;
 .devsns1:visited { color: black; text-decoration: none; }
 .devsns1:hover { color: black; text-decoration: none; }
 .devsns1:active { color: black; text-decoration: none;}
+.dev1:link { color: black; text-decoration: none; }
+.dev1:visited { color: black; text-decoration: none; }
+.dev1:hover { color: black; text-decoration: none; }
+.dev1:active { color: black; text-decoration: none;}
 .devsns1 {
   position: relative;
   left: 10px;
@@ -186,6 +190,10 @@ display: flex;
 .devsns2:visited { color: black; text-decoration: none; }
 .devsns2:hover { color: black; text-decoration: none; }
 .devsns2:active { color: black; text-decoration: none;}
+.dev2:link { color: black; text-decoration: none; }
+.dev2:visited { color: black; text-decoration: none; }
+.dev2:hover { color: black; text-decoration: none; }
+.dev2:active { color: black; text-decoration: none;}
 .devsns2 {
   position: relative;
   left: 10px;

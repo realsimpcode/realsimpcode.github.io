@@ -9,6 +9,10 @@
   color: gray;
   height: 1px;
 }
+a{ text-decoration: none; }
+a:visited{color: blue;}
+a:hover{ color:yellow; }
+
 
 html, body {
   height: 100%;
@@ -168,7 +172,7 @@ display: flex;
   text-decoration: none;
 }
 .dev1:link { color: black;}
-.dev1:active { color: black;
+.dev1:active { color: black;}
 .devsns1 {
   position: relative;
   left: 10px;
@@ -178,7 +182,7 @@ display: flex;
   text-decoration: none;
 }
 .dev2:link { color: black;}
-.dev2:active { color: black;
+  .dev2:active { color: black;}
 .devsns2 {
   position: relative;
   left: 10px;
